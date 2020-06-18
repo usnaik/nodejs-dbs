@@ -1,0 +1,29 @@
+{
+  "name": "shopsy",
+  "version": "0.0.0",
+  "private": true,
+  "author": "",
+  "scripts": {
+    "start": "node ./server/bin/www | ./node_modules/bunyan/bin/bunyan"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "connect-redis": "^3.3.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.12.3",
+    "mysql2": "^2.1.0",
+    "pug": "~2.0.0-beta11",
+    "redis": "^2.8.0",
+    "sequelize": "^5.21.13"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
